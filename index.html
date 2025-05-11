@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskManager Pro</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <header>
+    <!-------- this section is for Headings, Logos, nav menus, search login etc------>
+        
+    </header>
+    <main>
+        <section>
+
+            <Div id="taskContainer">
+
+
+                 <!-----PAGE HEADER-->
+                <div style="display: flex; justify-content: center; align-items: center;">
+
+                    <h2>CREATE A TASK</h2>
+
+                </div>
+        
+                <!------------FORM SECTION ------->
+        
+
+            <form id="taskForm">
+                <div class="form-group">
+                    <label for="taskTitle"> Task Title</label>
+                    <input type="text" id="taskTitle" name="taskTitle" placeholder="Task Title" required>
+               </div>
+
+               <div class="form-group">
+                    <label for="taskDescription">Task Description</label>
+                    <textarea id="taskDescription" name="taskDescription" placeholder="Task Description" rows="4" required></textarea>
+               </div>
+
+                <button id="alertButton" type="submit" class="submit-btn"> Add Task </button>
+                
+            </form>
+
+
+           <!--- This section is to display task-->
+                <div id="taskList">
+
+                </div>
+
+            </Div>
+        </section>
+
+    </main>
+    <footer>
+        <! This section is for links to privacy policies, copyright info, terms of service, careers, etc>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
