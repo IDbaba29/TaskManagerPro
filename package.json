@@ -1,0 +1,29 @@
+{
+  "name": "taskmanager-pro-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Server/index.js",
+    "dev": "nodemon Server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IDbaba29/TaskManagerPro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IDbaba29/TaskManagerPro/issues"
+  },
+  "homepage": "https://github.com/IDbaba29/TaskManagerPro#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.14.2",
+    "nodemon": "^3.1.10"
+  }
+}
